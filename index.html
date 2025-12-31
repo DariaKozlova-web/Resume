@@ -1,132 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daria Kozlova</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <img
-        src="/img/myphoto.jpg"
-        alt="Daria Kozlova"
-        width="300"
-        height="300"
-      />
-      <h1>Daria Kozlova</h1>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daria Kozlova | Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <img src="img/myphoto.jpg" alt="Daria Kozlova" class="profile-photo" />
+    <h1>Daria Kozlova</h1>
+    <p class="subtitle">Aspiring Full-Stack Developer | Germany</p>
+  </header>
 
-    <main>
-      <article>
-        <!-- Contacts -->
-        <section>
-          <h2>Contact information</h2>
-          <address>
-            <ul>
-              <li>Tel.: <a href="tel:+491234567890">+49 123 4567890</a></li>
-              <li>
-                E-mail:
-                <a href="mailto:kozloffa.daria@gmail.com"
-                  >kozloffa.daria@gmail.com</a
-                >
-              </li>
-            </ul>
-          </address>
-        </section>
-        <!-- Objective -->
-        <section>
-          <h2>Objective</h2>
+  <main>
+    <section class="card reveal">
+      <h2>Contact Information</h2>
+      <ul class="contacts">
+        <li><span><img class="linkedin-img" src="img/linkedin.png" alt=""></span><a href="https://www.linkedin.com/in/daria-kozlova/">www.linkedin.com/in/daria-kozlova</a></li>
+        <li><span><img class="gmail-img" src="img/gmail.png" alt=""></span><a href="mailto:kozloffa.daria@gmail.com">kozloffa.daria@gmail.com</a></li>
+      </ul>
+    </section>
+
+    <section class="card reveal">
+      <h2>Objective</h2>
+      <p>
+        I am a detail-oriented engineer with a strong interest in web
+        development and design. I enjoy learning new technologies and combining
+        creativity with logical thinking. My goal is to grow as a full-stack
+        developer and build efficient, user-friendly applications.
+      </p>
+    </section>
+
+    <section class="card reveal">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <h3>Full-Stack Web Development</h3>
+          <p><time>2025</time> – Present | WBS Coding School, Germany</p>
+          <p>Learning HTML, CSS, JavaScript, and backend fundamentals.</p>
+        </li>
+        <li>
+          <h3>Web Development Course</h3>
+          <p><time>2021</time> | WayUp Educational Platform, Ukraine</p>
+          <p>Introduction to web technologies and project-based learning.</p>
+        </li>
+        <li>
+          <h3>Basic HTML & CSS Course</h3>
+          <p><time>2021</time> | GoIT, Ukraine</p>
+          <p>Basic knowledge of HTML, CSS, and responsive web design.</p>
+        </li>
+        <li>
+          <h3>Engineer-Ecologist</h3>
+          <p><time>2009 – 2015</time> | National Technical University “Kharkiv Polytechnic Institute”, Ukraine</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card reveal">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <h3>Engineer-Metrologist and Ecologist</h3>
+          <p>Kharkiv Plant of Special Machines, Ukraine</p>
+          <p><time>2013 – 2022</time></p>
           <p>
-            I am a detail-oriented engineer with a strong interest in web
-            development and design. I enjoy learning new technologies and
-            combining creativity with logical thinking. My goal is to grow as a
-            full-stack developer and build efficient, user-friendly
-            applications.
+            Responsible for environmental monitoring, measurement accuracy, and documentation.
+            Worked in a team to improve production quality and environmental compliance.
           </p>
-        </section>
-        <!-- Education -->
-        <section>
-          <h2>Education</h2>
-          <ul>
-            <li>
-              <h3>Full-Stack Web Development</h3>
-              <p>
-                <time datetime="2025">2025</time> - Present | WBS Coding School,
-                Germany
-              </p>
-              <p>Learning HTML, CSS, JavaScript and backend fundamentals.</p>
-            </li>
-            <li>
-              <h3>Web Development Course</h3>
-              <p>
-                <time datetime="2021">2021</time> | WayUp Educational Platform,
-                Ukraine
-              </p>
-              <p>
-                Introduction to web technologies and project-based learning.
-              </p>
-            </li>
-            <li>
-              <h3>Basic HTML & CSS Course</h3>
-              <p><time datetime="2021">2021</time> | GoIT, Ukraine</p>
-              <p>Basic knowledge of HTML, CSS and responsive web design.</p>
-            </li>
-            <li>
-              <h3>Engineer-Ecologist</h3>
-              <p>
-                <time datetime="2009">September 2009</time> -
-                <time datetime="2015">Januar 2015</time> | National Technical
-                University "Kharkiv Polytechnic Institute", Ukraine
-              </p>
-            </li>
-          </ul>
-        </section>
-        <!-- Experience -->
-        <section>
-          <h2>Experience</h2>
-          <ul>
-            <li>
-              <h3>Engineer-Metrologist and Ecologist</h3>
-              <p>Kharkiv Plant of Special Machines, Ukraine</p>
-              <p>
-                <time datetime="2013">September 2013</time> -
-                <time datetime="2022">November 2022</time>
-              </p>
-              <p>
-                Responsible for environmental monitoring, measurement accuracy,
-                and documentation. Worked in a team to improve production
-                quality and environmental compliance.
-              </p>
-            </li>
-          </ul>
-        </section>
-        <!-- Skills -->
-        <section>
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML, CSS, JavaScript (beginner level)</li>
-            <li>Basic IT knowlege</li>
-            <li>German language - level B2</li>
-            <li>Driving license - Category B</li>
-            <li>Attention to detail and analytical thinking</li>
-            <li>Teamwork and communication</li>
-          </ul>
-        </section>
-        <!-- Interests -->
-        <section>
-          <h2>Interests</h2>
-          <ul>
-            <li>Sport ang cycling with my son</li>
-            <li>Cooking and expliring new recipes</li>
-            <li>Learning languages and web design</li>
-          </ul>
-        </section>
-      </article>
-    </main>
+        </li>
+      </ul>
+    </section>
 
-    <footer>
-      <p>© 2025 Daria Kozlova</p>
-    </footer>
-  </body>
+    <section class="card reveal">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML, CSS, JavaScript (beginner level)</li>
+        <li>Basic IT knowledge</li>
+        <li>German language – level B2</li>
+        <li>Driving license – Category B</li>
+        <li>Attention to detail and analytical thinking</li>
+        <li>Teamwork and communication</li>
+      </ul>
+    </section>
+
+    <section class="card reveal">
+      <h2>Interests</h2>
+      <ul>
+        <li>Sports and cycling with my son</li>
+        <li>Cooking and exploring new recipes</li>
+        <li>Learning languages and web design</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Daria Kozlova</p>
+  </footer>
+
+  <script>
+    //Smooth scrolling
+    document.documentElement.style.scrollBehavior = "smooth";
+
+    // Animation of sections appearing when scrolling
+    const reveals = document.querySelectorAll(".reveal");
+
+    const revealOnScroll = () => {
+      for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const revealTop = reveals[i].getBoundingClientRect().top;
+        const revealPoint = 120;
+
+        if (revealTop < windowHeight - revealPoint) {
+          reveals[i].classList.add("active");
+        }
+      }
+    };
+
+    window.addEventListener("scroll", revealOnScroll);
+    revealOnScroll();
+  </script>
+</body>
 </html>
