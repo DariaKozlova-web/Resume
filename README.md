@@ -38,7 +38,7 @@ It can be used as an online CV or a personal portfolio introduction.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/DariaKozlova-web/Resume.git
    ```
 2. Open `index.html` in your browser
 (no build tools or dependencies required)
