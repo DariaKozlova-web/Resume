@@ -31,8 +31,6 @@ It can be used as an online CV or a personal portfolio introduction.
 │ ├── linkedin.png
 │ └── gmail.png
 
-php
-Копіювати код
 
 ## 🚀 How to Run the Project
 
