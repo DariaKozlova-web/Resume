@@ -24,12 +24,14 @@ It can be used as an online CV or a personal portfolio introduction.
 
 ## 📂 Project Structure
 
+```
 ├── index.html
 ├── style.css
 ├── img/
 │ ├── myphoto.jpg
 │ ├── linkedin.png
 │ └── gmail.png
+```
 
 
 ## 🚀 How to Run the Project
@@ -37,35 +39,36 @@ It can be used as an online CV or a personal portfolio introduction.
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
-Open index.html in your browser
+   ```
+2. Open `index.html` in your browser
 (no build tools or dependencies required)
 
-🎯 Purpose
+## 🎯 Purpose
 This project was created as:
 
-My first portfolio project
+- My first portfolio project
 
-Practice with HTML & CSS fundamentals
+- Practice with HTML & CSS fundamentals
 
-An example of a clean and professional resume layout
+- An example of a clean and professional resume layout
 
-A foundation for future improvements and enhancements
+- A foundation for future improvements and enhancements
 
-🔮 Possible Improvements
-Add dark mode
+## 🔮 Possible Improvements
+- Add dark mode
 
-Improve accessibility (ARIA labels, contrast)
+- Improve accessibility (ARIA labels, contrast)
 
-Add downloadable PDF version of the resume
+- Add downloadable PDF version of the resume
 
-Deploy the project using GitHub Pages
+- Deploy the project using GitHub Pages
 
-👩‍💻 Author
+## 👩‍💻 Author
 Daria Kozlova
 Aspiring Full-Stack Developer
 
-LinkedIn: https://www.linkedin.com/in/daria-kozlova/
+- LinkedIn: https://www.linkedin.com/in/daria-kozlova/
 
-Email: kozloffa.daria@gmail.com
+- Email: kozloffa.daria@gmail.com
 
 © 2025 Daria Kozlova
